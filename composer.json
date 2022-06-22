@@ -1,0 +1,13 @@
+{
+    "name": "root/composer",
+    "require": {
+        "twig/twig": "3.4",
+        "monolog/monolog": "2.7",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Root\\Composer\\": "src/"
+        }
+    }
+}
